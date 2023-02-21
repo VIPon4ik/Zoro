@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  border-color: gray;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.haeder div {
+  font-family: Montserrat, Arial;
+}
+.left-section {
+  margin-left: 220px;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.search-icon-container img {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.search-icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.search-tooltip-container {
+  display: flex;
+  max-width: 500px;
+  position: absolute;
+  left: -324px;
+  bottom: -84px;
+  border-radius: 10px;
+}
+
+.search-bar,
+.search-bar-start,
+.search-bar-end {
+  flex: 1;
+  max-width: 135px;
+  height: 80px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  margin-left: -1px;
+  border: 0.5px solid #000000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-start {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.search-bar-end {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  max-width: 90px;
+}
+
+.search-tooltip img {
+  width: 20px;
+  height: 20px;
+}
+.right-section {
+  margin-right: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section img {
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  margin-right: 4px ;
+}
+
+.logo-text {
+  font-size: 50px;
+}
+
+.logo-text span {
+  background-color: rgb(71 128 113);
+  border-color: black;
+  border-style: solid;
+  border-radius: 16px;
+  padding: 4px 14px 4px 14px;
+  border-width: 1px;
+}
+
+.add-advertisement-container,
+.favorites-container,
+.sign-in-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.add-advertisement,
+.favorites,
+.sign-in {
+  white-space: nowrap;
+  font-size: 14px;
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.15);
+  font-family: Montserrat, Arial;
+}
